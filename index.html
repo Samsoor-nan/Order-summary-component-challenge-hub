@@ -16,6 +16,7 @@
     .attribution a { color: hsl(228, 45%, 44%); }
   body{
     font-family: 'Red Hat Display';
+    background-color: hsl(224, 23%, 55%);
   }
   svg{
     width: 100%;
@@ -30,7 +31,7 @@
     margin:auto;
     width: 450px;
     top: -300px;
-    border: 1px solid red;
+   
     border-radius: 20px;
     background-color: white ;
     
@@ -50,10 +51,67 @@
     position: relative;
     margin: auto;
     width: 300px;
-    background-color:hsl(224, 23%, 55%) ;
-    border: 1px solid red;
+    background-color: hsl(225, 100%, 98%) ;
+   
     display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+    border-radius: 10px;
+    height: 50px;
   }
+  .musci-sec-plan-rate{
+    padding:20px;
+    
+  }
+  .music-icon{
+    
+  }
+  .musci-sec-plan-rate{
+    width: 750px;
+  }
+  .procees-btn {
+    display: block;
+    position: relative;
+    margin: auto;
+    width: 320px;
+    top: 10px;
+    padding: 10px;
+    background-color:  hsl(245, 75%, 52%);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    
+    text-decoration: none;
+    text-align: center;
+  }
+  .Cancel-btn {
+    display: block;
+    position: relative;
+    margin: auto;
+    width: 320px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+    background-color:  white;
+    
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .change-link{
+    color: hsl(223, 47%, 23%) ;
+    font-size: 11px;
+    font-weight: 500;
+  }
+  .procees-btn:hover{
+    background-color:hsl(245, 75%, 52%) ;
+  }
+  .change-link:hover{
+    color:hsl(245, 75%, 52%)
+  } 
+
   
 
   </style>
@@ -75,11 +133,11 @@
     <h4 class="music-h4">Annual Plan</h4>
     <p class="rate">$59.99/year</p>
    </div>
-    <a class="change-link">Change</a>
+    <a class="change-link" href="" class="change-link">Change</a>
 
   </div>
-  <button class="procees-btn">Proceed to Payment</button>
-  <button class="Cancel-btn">Cancel Order</button>
+  <a class="procees-btn" href="">Proceed to Payment</a>
+  <a class="Cancel-btn" href="">Cancel Order</a>
 
 </div>
   
